@@ -10,13 +10,16 @@ background-color: #f8ecdc;
 }
  
 
-*{
-outline: 1px dotted lime;
+div{
+outline: 1px solid lime;
+    min-height: 10px;
+    padding: 10px;
+    
 }
 
 .header {
 background-color: #203aff; color: white;
-height: 80px;
+height: 9
 }
 
 
@@ -27,8 +30,8 @@ max-width: 950px;
 }
 
 .logo {
-    font-size: 1.272rem;
-    margin-top: 27px;
+    font-size: 1.572rem;
+    margin-top: 12px;
 }
 
 .links {
@@ -60,7 +63,28 @@ max-width: 950px;
 } 
 
 
-@media screen and (max-width: 480px) { body {
-       background-color: green;
-     }
+.Our-Services {
+    background-color: #233dff;
+    color: #f8ecdc;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
+
+.Our-Services .description {
+    grid-column: span 2;
+}
+
+
+.block img {
+    width: 18%;
+    float: left;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 570px)
