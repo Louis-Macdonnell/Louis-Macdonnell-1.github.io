@@ -13,13 +13,13 @@ background-color: #f8ecdc;
 div{
 outline: 1px solid lime;
     min-height: 10px;
-    padding: 10px;
+    padding: 15px;
     
 }
 
 .header {
 background-color: #203aff; color: white;
-height: 9
+height: 7
 }
 
 
@@ -82,9 +82,31 @@ max-width: 950px;
 }
 
 
+.portfolio {
+    background-color: #233dff;
+    color: #f8ecdc;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+
+}
+
+.portfolio .description {
+    grid-column: span 4;
+    
+}
+
+.little-image img {
+    width: 90%;
+    
+}
 
 
 
+.footer {
+    background-color: #233dff;
+    color: #f8ecdc;
+    
+}
 
 
 @media screen and (max-width: 570px)
